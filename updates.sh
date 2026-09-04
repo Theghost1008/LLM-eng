@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 msg="$1"
 
 if [ -z "$msg" ]; then
